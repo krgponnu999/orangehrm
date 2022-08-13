@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="hrm">
+<listeners>
+<listener class-name="listenpackage.listenclass" />
+</listeners>
+<test name="datadriven">
+		<classes>
+			<class name="datadriven.Datadriven_test">
+			</class>
+		</classes>
+	</test>
+	 <test name="dashboard">
+		<classes>
+			<class name="test_case.Dashboard_test">
+			</class>
+		</classes>
+	</test>
+	<test name="admin_page">
+		<classes>
+			<class name="test_case.Admin_test">
+			</class>
+		</classes>
+	</test>
+	<test name="myinfo_page">
+		<classes>
+			<class name="test_case.Myinfo_test">
+			</class>
+		</classes>
+	</test>
+</suite>

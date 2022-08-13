@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-08T21:52:30 IST" name="hrm" finished-at="2022-08-08T21:53:11 IST" duration-ms="40214">
+    <groups>
+    </groups>
+    <test started-at="2022-08-08T21:52:30 IST" name="datadriven" finished-at="2022-08-08T21:52:47 IST" duration-ms="16552">
+      <class name="datadriven.Datadriven_test">
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:datadriven.Datadriven_test@3e27ba32]" started-at="2022-08-08T21:52:32 IST" name="f" data-provider="dp" finished-at="2022-08-08T21:52:34 IST" duration-ms="2197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[98748.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:datadriven.Datadriven_test@3e27ba32]" started-at="2022-08-08T21:52:34 IST" name="f" data-provider="dp" finished-at="2022-08-08T21:52:36 IST" duration-ms="1601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7894.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:datadriven.Datadriven_test@3e27ba32]" started-at="2022-08-08T21:52:36 IST" name="f" data-provider="dp" finished-at="2022-08-08T21:52:37 IST" duration-ms="1643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[104-04-1999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pnnspnns]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:datadriven.Datadriven_test@3e27ba32]" started-at="2022-08-08T21:52:37 IST" name="f" data-provider="dp" finished-at="2022-08-08T21:52:39 IST" duration-ms="1466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[naveen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9874561.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:datadriven.Datadriven_test@3e27ba32]" started-at="2022-08-08T21:52:39 IST" name="f" data-provider="dp" finished-at="2022-08-08T21:52:47 IST" duration-ms="7951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- datadriven.Datadriven_test -->
+    </test> <!-- datadriven -->
+    <test started-at="2022-08-08T21:52:47 IST" name="dashboard" finished-at="2022-08-08T21:52:47 IST" duration-ms="96">
+      <class name="test_case.Dashboard_test">
+        <test-method signature="dash()[pri:0, instance:test_case.Dashboard_test@548a24a]" started-at="2022-08-08T21:52:47 IST" name="dash" finished-at="2022-08-08T21:52:47 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dash -->
+      </class> <!-- test_case.Dashboard_test -->
+    </test> <!-- dashboard -->
+    <test started-at="2022-08-08T21:52:47 IST" name="admin_page" finished-at="2022-08-08T21:52:52 IST" duration-ms="5315">
+      <class name="test_case.Admin_test">
+        <test-method signature="to_write_user_role()[pri:0, instance:test_case.Admin_test@52f27fbd]" started-at="2022-08-08T21:52:47 IST" name="to_write_user_role" finished-at="2022-08-08T21:52:52 IST" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_write_user_role -->
+      </class> <!-- test_case.Admin_test -->
+    </test> <!-- admin_page -->
+    <test started-at="2022-08-08T21:52:52 IST" name="myinfo_page" finished-at="2022-08-08T21:53:11 IST" duration-ms="18172">
+      <class name="datadriven.Datadriven_test">
+        <test-method is-config="true" signature="browser_launch()[pri:0, instance:datadriven.Datadriven_test@3e27ba32]" started-at="2022-08-08T21:52:20 IST" name="browser_launch" finished-at="2022-08-08T21:52:30 IST" duration-ms="10290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_launch -->
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:datadriven.Datadriven_test@3e27ba32]" started-at="2022-08-08T21:53:11 IST" name="close_browser" finished-at="2022-08-08T21:53:11 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- datadriven.Datadriven_test -->
+      <class name="test_case.Myinfo_test">
+        <test-method signature="screen()[pri:0, instance:test_case.Myinfo_test@72bc6553]" started-at="2022-08-08T21:52:52 IST" name="screen" finished-at="2022-08-08T21:53:11 IST" duration-ms="18169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+      </class> <!-- test_case.Myinfo_test -->
+    </test> <!-- myinfo_page -->
+  </suite> <!-- hrm -->
+</testng-results>
